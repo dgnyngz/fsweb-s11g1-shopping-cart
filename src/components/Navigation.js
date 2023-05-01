@@ -4,6 +4,7 @@ import { ScNav } from "./scParts";
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 const Navigation = () => {
+  const sepet = useContext(CartContext);
   return (
     <ScNav>
       <nav className="content">
